@@ -82,6 +82,11 @@ other matches was used only to check the pipeline and to choose between a few ro
 failure modes. No constant was fitted to it; with 17 possessions it cannot choose between
 versions.
 
+**AI assistance.** AI assistants were used during development, as the rules allow: Claude as a
+coding and analysis assistant, and other LLMs for two rounds of design ideas. The briefs we sent
+them and their answers are in `solution/LLMs/`; the briefs contain descriptions and aggregate
+statistics only. No LLM is part of the pipeline that produces the submission.
+
 ## 4. The possession rules we implemented
 
 - **Ball in play:** exactly one team has possession; there is no contested state.
